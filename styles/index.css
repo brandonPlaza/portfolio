@@ -1,0 +1,18 @@
+body {
+    flex: 1;
+}
+
+#top-bar {
+    flex: 1;
+    background-color: aqua;
+}
+
+#top-bar-buttons {
+    padding: 10px 10px 10px 10px;
+    background-color: red;
+}
+
+#name-text {
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
+}

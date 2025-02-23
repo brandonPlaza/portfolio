@@ -1,0 +1,39 @@
+/* :root{
+  --primary: hsl(47, 0, 11, 23);
+  --secondary: hsl(36, 0, 8, 8);
+  --bar: hsl(16, 0, 4, 14);
+  --bgcolour: hsl(2, 0, 21, 4);
+} */
+
+body {
+  margin: 0;
+  background-color: hsl(2, 0, 21, 4);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: hsl(16, 0, 4, 14);
+  padding: 10px 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+.home-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+.nav-right {
+  display: flex;
+}
